@@ -61,6 +61,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Tikzo brand colors
+				tikzo: {
+					red: 'hsl(var(--tikzo-red))',
+					orange: 'hsl(var(--tikzo-orange))',
+					yellow: 'hsl(var(--tikzo-yellow))',
+					green: 'hsl(var(--tikzo-green))'
 				}
 			},
 			borderRadius: {

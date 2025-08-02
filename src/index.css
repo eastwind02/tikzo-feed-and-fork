@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* Tikzo Design System - Food Discovery App
 All colors MUST be HSL.
 */
 
@@ -17,41 +17,45 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Tikzo brand colors - vibrant and appetizing */
+    --primary: 14 100% 57%; /* Vibrant orange #FF4500 */
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 56 100% 50%; /* Golden yellow #FFD700 */
+    --secondary-foreground: 222.2 84% 4.9%;
+
+    --accent: 120 100% 40%; /* Fresh green #00CC00 */
+    --accent-foreground: 0 0% 100%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 14 100% 57%;
 
-    --radius: 0.5rem;
+    --radius: 1rem;
+
+    /* Tikzo custom colors */
+    --tikzo-red: 0 100% 50%; /* Red #FF0000 */
+    --tikzo-orange: 14 100% 57%; /* Orange #FF4500 */
+    --tikzo-yellow: 56 100% 50%; /* Yellow #FFD700 */
+    --tikzo-green: 120 100% 40%; /* Green #00CC00 */
+    
+    /* Video overlay gradients */
+    --video-overlay: linear-gradient(0deg, hsl(0 0% 0% / 0.8) 0%, transparent 50%);
+    --video-overlay-top: linear-gradient(180deg, hsl(0 0% 0% / 0.3) 0%, transparent 30%);
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
